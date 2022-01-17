@@ -22,5 +22,5 @@ Reducir el tamaño del archivo de imagen base64 | JavaScript - Giv Canal: https:
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md] https://github.com/estrada59/E-firma-con-canva-y-reducci-n-de-tama-o-de-imagen/blob/main/LICENSE License para detalles
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md]LICENSE https://github.com/estrada59/E-firma-con-canva-y-reducci-n-de-tama-o-de-imagen/blob/main/LICENSE  para detalles
 
