@@ -1,0 +1,86 @@
+<!-- --------------------------------------
+E-Firma Canvas Elaborado por:
+Luis Alberto Luisjuan Guerrero 
+https://codepen.io/Tito0269/details/BdRbGa
+
+Editado por
+Enrique Estrada
+
+--------------------------------------------->
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+	<title>Canvas</title>
+
+</head>
+<body>
+	<header class="header">
+
+			<h1 align="center">Dibuja con Canvas usando el Mouse o Una pantalla Tactil; Crea una Imagen y reduce el tamaño de la imagen obtenida por el canva</h1>
+
+
+	</header>
+	<div class="contenedor">
+
+		<div class="row">
+			<div class="col-md-12">
+		 		<canvas id="draw-canvas" width="620" height="360">
+		 			No tienes un buen navegador.
+		 		</canvas>
+		 	</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<input type="button" class="button" id="draw-submitBtn" value="Crear Imagen"></input>
+				<input type="button" class="button" id="draw-clearBtn" value="Borrar Canvas"></input>
+
+						<!-- <label>Color</label> -->
+						<input type="color" id="color">
+						<!-- <label>Tamaño Puntero</label> -->
+						<input type="range" id="puntero" min="1" default="3" max="5" width="10%">
+
+
+			</div>
+
+		</div>
+
+		<br/>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Imagen original capturada del canva</h1>
+				<textarea id="draw-dataUrl" class="form-control" rows="5">Para los que saben que es esto:</textarea>
+				
+			</div>	
+			<div class="col-md-6">
+				<img id="draw-image" src="" alt="Tu Imagen aparecera Aqui!"/>
+				<h2 id="draw-image-old-size"></h2>
+				<h2 id="draw-image-old-width"></h2>
+				<h2 id="draw-image-old-height"></h2>
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Imagen reducida en tamaño y almacenamiento</h1>
+				<textarea id="draw-dataUrl-resized" class="form-control" rows="5">Para los que saben que es esto:</textarea>
+				
+			</div>
+			<div class="col-md-6">
+				<img id="draw-image-resized" src="" alt="Tu Imagen aparecera Aqui Reducida!"/>
+				<h2 id="draw-image-new-size"></h2>
+				<h2 id="draw-image-new-width"></h2>
+				<h2 id="draw-image-new-height"></h2>
+			</div>
+		</div>
+
+
+	</div>
+	<footer class="footer">
+			<h3>Elaborado por Tito y editado por Enrique Estrada, Enero 2022 </h3>
+	</footer>
+
+    <script src="jquery.js"></script>
+
+</body>
+</html>
