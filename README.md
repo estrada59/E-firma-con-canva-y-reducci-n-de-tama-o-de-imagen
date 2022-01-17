@@ -11,7 +11,7 @@ https://github.com/estrada59/E-firma-con-canva-y-reducci-n-de-tama-o-de-imagen/
 
 _Parte de este aporte es del siguiente canal de YouTube_
 
-educir el tamaño del archivo de imagen base64 | JavaScript - Giv Canal: https://www.youtube.com/watch?v=fe062UdOKuo
+Reducir el tamaño del archivo de imagen base64 | JavaScript - Giv Canal: https://www.youtube.com/watch?v=fe062UdOKuo
 
 
 ## Autor ✒️
